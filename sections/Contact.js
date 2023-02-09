@@ -1,8 +1,9 @@
 import React, { useContext } from 'react';
-import { Box, Text, Button, Link } from '@chakra-ui/react';
+import { Box, Text, Button } from '@chakra-ui/react';
 import { FiMail } from 'react-icons/fi';
 import Container from '../components/Container';
 import AppContext from '../context/context';
+import Link from 'next/link'
 
 const Contact = () => {
   const { contact } = useContext(AppContext);
@@ -14,17 +15,15 @@ const Contact = () => {
           {desc}
         </Text>
         <Button
-          as={Link}
-          href="mailto:ayodeleprevail@gmail.com"
           variant="secondary"
           maxW="xs"
           size="lg"
           leftIcon={<FiMail />}
           _hover={{
             textDecoration: 'none',
-          }}
-        >
-          Message me
+          }}>
+          <Link legacyBehavior href="mailto:ayodeleprevail@gmail.com">
+            <a href="mailto:ayodeleprevail@gmail.com">Message me</a></Link>
         </Button>
       </Box>
     </Container>

@@ -35,6 +35,7 @@ import {
   SiMaterialui,
   SiPostgresql,
   SiDotnet,
+  SiFlutter,
   SiNextdotjs,
   SiSass,
   SiTailwindcss,
@@ -63,6 +64,8 @@ const Skills = () => {
       { id: 10, title: 'chakraui', Icon: Chakra },
       { id: 11, title: 'MaterialUI', Icon: SiMaterialui },
       { id: 12, title: 'Sass', Icon: SiSass },
+      { id: 13, title: 'React-Native', Icon: DiReact },
+      { id: 14, title: 'Flutter', Icon: SiFlutter },
     ],
     backend: [
       { id: 1, title: 'node', Icon: SiNodedotjs },

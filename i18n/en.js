@@ -51,13 +51,13 @@ const en = {
         id: 1,
         title: 'East Clothing',
         links: {
-          github: 'https://github.com/arielscc/intercambio-btc',
+          github: 'https://github.com/prevailayodele2/ecommerce-recent-client.git',
           live: 'https://east-clothing-client.onrender.com/',
         },
-        url: '/assets/projects/intercambio-btc.jpg',
+        url: '/assets/projects/east.png',
         description:
-          'This project is a Single Page App, developed React Js In order to shop for cloths and acessories, search for better deals and track ordered Products',
-        tags: ['ReactJs', 'Javascript'],
+          'This project is a Single Page App, developed using React Js In order to shop for cloths and acessories, search for better deals and track ordered Products',
+        tags: ['ReactJs', 'Javascript', "Redux"],
       },
       {
         id: 2,
@@ -66,22 +66,46 @@ const en = {
           github: 'https://github.com/prevailayodele2/kindeem-awesome-ecom--client',
           live: 'https://drive.google.com/file/d/1n8Ca4GhME_qQ1D8bFDte8NJ0mnAsvfAK/view?usp=share_link',
         },
-        url: '/assets/projects/tienda_online.jpg',
+        url: '/assets/projects/kindeem.png',
         description:
           'This project is a Single Page Application and its objective is to sell Elctronics like mobile accessories, home apliances and lots more, this project is implemented with Nextjs and also implements a payment and location to calculate delivery charges based on distance.',
         tags: ['Nextjs', 'Javascript', 'ReduxJS', 'Sass'],
       },
       {
         id: 3,
-        title: 'Video Anime',
+        title: 'Twak(Ongoing)',
         links: {
-          github: 'https://github.com/arielscc/videoAnime',
-          live: 'https://video-anime.netlify.app/',
+          github: 'https://github.com/prevailayodele2/chat-app-latest.git',
+          live: 'https://twak.onrender.com',
         },
-        url: '/assets/projects/video-anime.jpg',
+        url: '/assets/projects/twak.png',
         description:
-          'This project is a site to watch anime videos, filter them by re-relevance, popularity and rating. This website natively implements Server-Side-Rendering, and is a PWA',
-        tags: ['Javascript', 'Kitsu.io', 'Css', 'Html'],
+          'This project is a chat app with socket io and Restful Api as a server side rendering that supports image sharing , link sharing, video and audio call and group chat',
+        tags: ['ReactJS', 'Material ui', 'Socket io', 'Node js','MongoDB'],
+      },
+      {
+        id: 4,
+        title: 'Anon Ecommerce',
+        links: {
+          github: 'https://github.com/prevailayodele2/anon-ecommerce',
+          live: 'https://jolly-moxie-11da3b.netlify.app/',
+        },
+        url: '/assets/projects/anon.png',
+        description:
+          'This project is a site with a complete ecommece application design with a multiple user friendly page and pure carousel ',
+        tags: ['Javascript', 'Css', 'Html'],
+      },
+      {
+        id: 5,
+        title: 'Digitic Ecommerce(Ongoing)',
+        links: {
+          github: 'https://github.com/prevailayodele2/digitic',
+          live: 'https://digitic-client.onrender.com',
+        },
+        url: '/assets/projects/digitic.png',
+        description:
+          'This project is a SPA made with react that user can shop for electronics and cloth, share product, and add product to wishlist as well as review a product  ',
+        tags: ['React', 'Css', 'Redux', "React image zoom", "Node js"],
       },
     ],
   },

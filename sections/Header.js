@@ -116,7 +116,7 @@ const Header = ({ inview }) => {
           <Tooltip hasArrow label="Github">
             <IconButton
               as={Link}
-              href="https://github.com/arielscc"
+              href="https://github.com/prevailayodele2"
               target="_blank"
               rounded="md"
               fontSize="lg"
@@ -172,12 +172,6 @@ const Header = ({ inview }) => {
               title="Language"
               type="radio"
             >
-              <MenuItemOption
-                value="es"
-                onClick={() => handleChangeLanguage('es')}
-              >
-                Español
-              </MenuItemOption>
               <MenuItemOption
                 value="en"
                 onClick={() => handleChangeLanguage('en')}
