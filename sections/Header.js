@@ -130,7 +130,7 @@ const Header = ({ inview }) => {
           <Tooltip hasArrow label="Twitter">
             <IconButton
               as={Link}
-              href="https://twitter.com/arielschura"
+              href="https://twitter.com/ayodeleprevail"
               target="_blank"
               rounded="md"
               fontSize="lg"
@@ -144,7 +144,7 @@ const Header = ({ inview }) => {
           <Tooltip hasArrow label="Instagram">
             <IconButton
               as={Link}
-              href="https://instagram.com/arielchura"
+              href="https://instagram.com/prevailayodele"
               target="_blank"
               rounded="md"
               fontSize="lg"
