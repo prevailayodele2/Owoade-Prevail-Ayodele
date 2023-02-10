@@ -80,7 +80,7 @@ const en = {
         },
         url: '/assets/projects/twak.png',
         description:
-          'This project is a chat app with socket io and Restful Api as a server side rendering that supports image sharing , link sharing, video and audio call and group chat',
+          'This project is a chat app with socket io and Restful Api as a server side rendering that supports image sharing , link sharing, video and audio call and group chat NOTE: TO ACCESS APP LOGIN WITH DEFAULT VALUE',
         tags: ['ReactJS', 'Material ui', 'Socket io', 'Node js','MongoDB'],
       },
       {
