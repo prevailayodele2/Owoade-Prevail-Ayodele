@@ -50,7 +50,7 @@ const Experience = () => {
           </AccordionPanel>
         </AccordionItem>
 
-        {/* <AccordionItem>
+        <AccordionItem>
           <AccordionButton>
             <Text
               as="h3"
@@ -61,8 +61,8 @@ const Experience = () => {
               color="blue.600"
               fontWeight="700"
             >
-              Fam - Bolivia{' '}
-              <chakra.span fontSize="xs">Oct/2018 - Jun/2019</chakra.span>
+              E-Creations Incoporation{' '}
+              <chakra.span fontSize="xs">Feb/2020 - Sep/2021</chakra.span>
             </Text>
             <AccordionIcon />
           </AccordionButton>
@@ -76,7 +76,7 @@ const Experience = () => {
               ))}
             </List>
           </AccordionPanel>
-        </AccordionItem> */}
+        </AccordionItem>
       </Accordion>
     </Container>
   );

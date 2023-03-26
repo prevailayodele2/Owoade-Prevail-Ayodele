@@ -37,11 +37,17 @@ const en = {
   experience: {
     title: 'experience',
     job_a: [
-      'Responsible for the support of the faculty administration systems',
-      'Responsible for network support and communication of the faculty',
-      'User interface design and graphic design',
-      'Database administration',
+      'worked with a team of developers to rebuild the current e-commerce that made it more elegant and performant',
+      'Tested sites in various browsers and devices to ensure cross-browser compatibility and mobile responsiveness',
+      'Communicate and collaborate with a team of developers, designer and project managers on daily basics',
     ],
+    job_b:[
+      'Worked with a team of developers to create a web application that helped the company to transition to paperless for purchase requests and approval process',
+      'Write clean, readable and manageable code for our internal projects',
+      'Implementation of frontend functionalities and interfaces creation of general reuseable components',
+      'Write well tested backend functionalities using NodeJS and ExpressJS',
+      'communicate and collaborate with a team of developers, designers and project managers on a daily basics'
+    ]
   },
   list_projects: {
     title: 'projects',
@@ -106,6 +112,18 @@ const en = {
         description:
           'This project is a SPA made with react that user can shop for electronics and cloth, share product, and add product to wishlist as well as review a product  ',
         tags: ['React', 'Css', 'Redux', "React image zoom", "Node js"],
+      },
+      {
+        id: 6,
+        title: 'Dress Shop',
+        links: {
+          github: 'https://github.com/prevailayodele2/dress-shop',
+          live: 'https://dress-shop.vercel.app',
+        },
+        url: '/assets/projects/dress.png',
+        description:
+          'This project is a SPA made with react that user can shop for electronics and cloth, share product, and add product to wishlist as well as review a product  ',
+        tags: ['React', 'Framer motion', 'Redux', "Stripe", "Node js", "Cloudinary", "passport", "Typescript"],
       },
     ],
   },
