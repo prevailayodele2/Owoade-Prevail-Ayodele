@@ -27,7 +27,7 @@ const en = {
     title: 'education',
     univ: 'Quantity Surveying - FUTA',
     desc_u:
-      'I am studying at the federal university of technology Akure and i will be graduating in the year 2025 and currently with a CGPA of 4.63',
+      'I am studying at the federal university of technology Akure, Nigeria and i will be graduating in the year 2025',
     },
   skills: {
     title: 'skills',
